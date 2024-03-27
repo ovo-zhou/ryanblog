@@ -21,5 +21,8 @@
     "ignorePatterns": ["webpack.*.js"],
     "rules": {
       // 在这里添加你的规则配置
+      "semi": "error",
+      "indent": ["error", 2],
+      "react/prop-types": "off"
     }
   }

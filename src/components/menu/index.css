@@ -1,0 +1,23 @@
+.nav-container{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    line-height: 60px;
+    justify-content: space-between;
+}
+.nav-login{
+    width: 100px;
+    margin-top: 15px;
+    z-index: 100;
+    cursor: pointer;
+}
+.nav-login-item{
+    background-color: white;
+    line-height: 30px;
+}
+.nav-login-block{
+    display: none;
+}
+.nav-login:hover .nav-login-block{
+    display: block;
+}
